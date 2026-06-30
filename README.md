@@ -56,6 +56,7 @@ Attach the following inline policy to the Lambda execution role.
   ]
 }
 ```
+<img width="1920" height="823" alt="lambda" src="https://github.com/user-attachments/assets/fe06aafb-691e-4a18-94b1-0227c07c3182" />
 
 ---
 
