@@ -1,7 +1,5 @@
 # Automated-EBS-Snapshot-Cleanup-using-AWS-Lambda-and-EventBridge
 
-# Automated EBS Snapshot Cleanup using AWS Lambda and EventBridge
-
 ## Overview
 
 This project automates the cleanup of stale Amazon EBS snapshots using AWS Lambda. The Lambda function is triggered by Amazon EventBridge on a scheduled basis to identify and delete snapshots associated with deleted or unused EBS volumes, helping reduce AWS storage costs.
