@@ -56,6 +56,8 @@ Attach the following inline policy to the Lambda execution role.
   ]
 }
 ```
+## AWS Lambda Function
+The AWS Lambda function is responsible for identifying stale Amazon EBS snapshots and deleting snapshots that are no longer associated with active EC2 instances or EBS volumes.
 <img width="1920" height="823" alt="lambda" src="https://github.com/user-attachments/assets/fe06aafb-691e-4a18-94b1-0227c07c3182" />
 
 ---
@@ -64,9 +66,7 @@ Attach the following inline policy to the Lambda execution role.
 
 Use the following schedule expression to invoke the Lambda function automatically.
 
-```text
-rate(1 day)
-```
+<img width="1920" height="1080" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/051d31b3-d8bb-4eb5-b824-be6828da4aa1" />
 
 ---
 
