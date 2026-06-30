@@ -65,8 +65,8 @@ The AWS Lambda function is responsible for identifying stale Amazon EBS snapshot
 ## EventBridge Schedule
 
 Use the following schedule expression to invoke the Lambda function automatically.
+<img width="1920" height="880" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/140eff6b-c9b3-4edf-a9fe-38682eeb7f64" />
 
-<img width="1920" height="1080" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/051d31b3-d8bb-4eb5-b824-be6828da4aa1" />
 
 ---
 
@@ -86,3 +86,7 @@ Use the following schedule expression to invoke the Lambda function automaticall
 - Deletes snapshots associated with deleted volumes.
 - Deletes snapshots attached to unused or non-running EC2 instances.
 - Preserves snapshots associated with active running EC2 instances.
+  <img width="1920" height="861" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/30586341-0c86-4ccb-9a81-87560e212f83" />
+  <img width="1920" height="1080" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/b8549fd7-5955-4718-ac50-ca45a56981a0" />
+
+
